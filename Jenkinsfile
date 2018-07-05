@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("bayremjenkins/hellonode")
+        app = docker.build("bayremmed/hellonode")
     }
 
     stage('Test image') {
